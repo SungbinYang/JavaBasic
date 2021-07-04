@@ -42,7 +42,7 @@
   long lnumber = 12345678900L; // ok
 
 ``` java
-    package me.sungbin.chapter1.ch01_06;
+package me.sungbin.chapter1.ch01_06;
 
 public class IntegerTest {
     public static void main(String[] args) {
