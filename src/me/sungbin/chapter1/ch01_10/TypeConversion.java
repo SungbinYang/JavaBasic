@@ -19,5 +19,11 @@ public class TypeConversion {
 
         System.out.println(num1);
         System.out.println(num2);
+
+        int myNum = 10;
+        int yourNum = 20;
+
+        myNum += yourNum;
+        System.out.println(myNum);
     }
 }
