@@ -1,0 +1,12 @@
+package me.sungbin.chapter1.ch01_07;
+
+public class DoubleTest {
+    public static void main(String[] args) {
+
+        double dNum = 3.14;
+        float fNum = 3.14f;
+
+        System.out.println(dNum);
+        System.out.println(fNum);
+    }
+}
