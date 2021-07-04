@@ -9,10 +9,10 @@
 
 
 ## 기본 자료형(primitive data type)의 종류
-![datatype](./img/intdatatype.png)
+![datatype](https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter1/01-06/img/intdatatype.png)
 
 ## 정수 자료형의 종류와 크기
-![datatype2](./img/intdatatype2.png)
+![datatype2](https://gitlab.com/easyspubjava/javacoursework/-/raw/master/Chapter1/01-06/img/intdatatype2.png)
 
 ## byte와 short
 + byte : 1바이트 단위의 자료형
@@ -42,7 +42,7 @@
   long lnumber = 12345678900L; // ok
 
 ``` java
-package me.sungbin.chapter1.ch01_06;
+    package me.sungbin.chapter1.ch01_06;
 
 public class IntegerTest {
     public static void main(String[] args) {
