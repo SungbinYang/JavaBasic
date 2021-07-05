@@ -17,5 +17,7 @@ public class StudentTest {
         studentKim.address = "판교";
 
         studentKim.showStudentInfo();
+        System.out.println(studentKim);
+        System.out.println(studentYang);
     }
 }
