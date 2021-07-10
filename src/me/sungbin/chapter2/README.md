@@ -17,3 +17,4 @@
 15. [퀴즈]()
 16. [static 변수]()
 17. [static 메서드의 구현과 활용, 변수의 유효범위]()
+18. [singleton pattern]()
