@@ -16,7 +16,7 @@ public class MyLinkedList {
         if(head == null){  //맨 처음일때
             newNode = new MyListNode(data);
             head = newNode;
-        } else{
+        } else {
             newNode = new MyListNode(data);
             MyListNode temp = head;
             while(temp.next != null)  //맨 뒤로 가서
@@ -32,7 +32,7 @@ public class MyLinkedList {
         MyListNode tempNode = head;
         MyListNode newNode = new MyListNode(data);
 
-        if(position < 0 || position > count ){
+        if(position < 0 || position > count ) {
             System.out.println("추가 할 위치 오류 입니다. 현재 리스트의 개수는 " + count +"개 입니다.");
             return null;
         }
@@ -65,13 +65,13 @@ public class MyLinkedList {
 
         if(position == 0){  //맨 앞을 삭제하는
             head = tempNode.next;
-        }
-        else{
+        } else{
             MyListNode preNode = null;
             for(i=0; i<position; i++){
                 preNode = tempNode;
                 tempNode = tempNode.next;
             }
+            assert preNode != null;
             preNode.next = tempNode.next;
         }
         count--;

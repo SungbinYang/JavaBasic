@@ -26,7 +26,6 @@ public class MyArray {
             return;
         }
         intArr[count++] = num;
-
     }
 
     public void insertElement(int position, int num) {
