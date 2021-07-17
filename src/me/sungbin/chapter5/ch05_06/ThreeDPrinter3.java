@@ -1,0 +1,14 @@
+package me.sungbin.chapter5.ch05_06;
+
+public class ThreeDPrinter3 {
+
+    private Object material;
+
+    public Object getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(Object material) {
+        this.material = material;
+    }
+}

@@ -5,3 +5,4 @@
 03. [LinkedList 구현하기]()
 04. [Stack 구현하기]()
 05. [Queue 구현하기]()
+06. [Generic programming]()
