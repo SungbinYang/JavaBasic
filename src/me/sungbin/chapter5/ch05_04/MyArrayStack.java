@@ -44,7 +44,6 @@ public class MyArrayStack {
     }
 
     public boolean isFull() {
-
         return top == arrayStack.ARRAY_SIZE;
     }
 

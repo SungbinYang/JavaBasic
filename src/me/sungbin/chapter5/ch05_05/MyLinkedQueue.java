@@ -29,7 +29,6 @@ public class MyLinkedQueue extends MyLinkedList implements Queue {
             newNode = addElement(data);
             rear = newNode;
         }
-
         System.out.println(newNode.getData() + " added");
     }
 
