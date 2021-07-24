@@ -32,13 +32,13 @@ class OutClass {
         void inTest() {
             System.out.println("InClass iNum = " +iNum + "(내부 클래스의 인스턴스 변수)");
             System.out.println("OutClass sNum = " + sNum + "(외부 클래스의 스태틱 변수)");
-            System.out.println("InClass sInNum = " + sInNum + "(내부 클래스의 인스턴스 변수)");
+            System.out.println("InClass sInNum = " + sInNum + "(내부 클래스의 스태틱 변수)");
         }
 
         static void sTest() {
 //            System.out.println("OutClass iNum = " +iNum + "(내부 클래스의 인스턴스 변수)");
             System.out.println("OutClass sNum = " + sNum + "(외부 클래스의 스태틱 변수)");
-            System.out.println("InClass sInNum = " + sInNum + "(내부 클래스의 인스턴스 변수)");
+            System.out.println("InClass sInNum = " + sInNum + "(내부 클래스의 스태틱 변수)");
         }
     }
 }
