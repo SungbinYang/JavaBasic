@@ -1,0 +1,8 @@
+7월 25, 2021 9:12:10 오전 me.sungbin.chapter6.ch06_11.MyLogger warning
+WARNING: name must not be null
+7월 25, 2021 9:12:10 오전 me.sungbin.chapter6.ch06_11.MyLogger warning
+WARNING: 이름이 너무 길어요
+7월 25, 2021 9:13:45 오전 me.sungbin.chapter6.ch06_11.MyLogger warning
+WARNING: name must not be null
+7월 25, 2021 9:13:45 오전 me.sungbin.chapter6.ch06_11.MyLogger warning
+WARNING: 이름이 너무 길어요
