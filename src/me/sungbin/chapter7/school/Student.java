@@ -10,14 +10,17 @@ public class Student {
 
     private Subject majorSubject; // 중점 과목
 
+    private Subject subject; // 일반 과목
+
     // 학생 성적 리스트
     // addSubjectScore() 메서드가 호출되면 리스트에 추가됨
     private ArrayList<Score> scoreList = new ArrayList<>();
 
-    public Student(int studentId, String studentName, Subject majorSubject) {
+    public Student(int studentId, String studentName, Subject majorSubject, Subject subject) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.majorSubject = majorSubject;
+        this.subject = subject;
     }
 
     public void addSubjectScore(Score score) {
@@ -42,6 +45,14 @@ public class Student {
 
     public Subject getMajorSubject() {
         return majorSubject;
+    }
+
+    public Subject getSubject() {
+        return subject;
+    }
+
+    public void setSubject(Subject subject) {
+        this.subject = subject;
     }
 
     public void setMajorSubject(Subject majorSubject) {
