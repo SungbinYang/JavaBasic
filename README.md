@@ -7,3 +7,4 @@
 5. [자바와 자료구조](https://github.com/SungbinYang/Java/tree/main/src/me/sungbin/chapter5)
 6. [자바의 다양한 기능들](https://github.com/SungbinYang/Java/tree/main/src/me/sungbin/chapter6)
 7. [성적관리 프로그램 프로젝트](https://github.com/SungbinYang/Java/tree/main/src/me/sungbin/chapter7)
+8. [알고리즘 문제](https://github.com/SungbinYang/Java/tree/main/src/me/sungbin/chapter8)
